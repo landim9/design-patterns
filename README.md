@@ -16,6 +16,17 @@ Ele encapsula estados distintos em objetos separados e delega as responsabilidad
 
 4.O ciclo continua conforme novas operações são chamadas no contexto.
 
+## Analogia com o mundo real
+
+Os botões e interruptores de seu smartphone comportam-se de forma diferente dependendo do estado atual do dispositivo:
+
+- Quando o telefone está desbloqueado, apertar os botões leva eles a executar várias funções.
+
+- Quando o telefone está bloqueado, apertar qualquer botão leva a desbloquear a tela.
+
+- Quando a carga da bateria está baixa, apertar qualquer botão mostra a tela de carregamento.
+
+
 ## Implementação em JavaScript
 
 ```
@@ -109,12 +120,3 @@ player.stop();  // Tenta parar a música novamente
 
 ```
 
-## Analogia com o mundo real
-
-Os botões e interruptores de seu smartphone comportam-se de forma diferente dependendo do estado atual do dispositivo:
-
-- Quando o telefone está desbloqueado, apertar os botões leva eles a executar várias funções.
-
-- Quando o telefone está bloqueado, apertar qualquer botão leva a desbloquear a tela.
-
-- Quando a carga da bateria está baixa, apertar qualquer botão mostra a tela de carregamento.
